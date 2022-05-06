@@ -23,12 +23,15 @@ To run the examples, simply run:
 python runContamWithPython-SingleZone.py
 python runContamWithPython-HygroB.py
 
+<h1>Known issues</h1>
+The known issues at the moment are:
+- Mandatory to have at least one contaminant in the simulation
+- This only works for Windows, since there are slight differences between the Windows and Linux executables regarding the socket communication.
+
+Note that the simulation times are much higher (3 to 5 times) than with a "normal" contam simulation due to the communication processes between the two softwares. It is thus very usefull to test original control logics (much faster than defining the control logic in ContamW), but may not be the most appropriate solution for very large parametric analyses (e.g. Monte Carlo analyses)
 
 <h1>Questions and support</h1>
-Don't hesitate to email me at sebastien.pecceu@bbri.be
-
-
-
+Don't hesitate to signal issues on GitHub or to email me at sebastien.pecceu@bbri.be
 
 
 
