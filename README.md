@@ -15,8 +15,10 @@ Only the scripts of this repository and the CONTAM executable (contamx.exe) in t
 
 <h1>How do I execute it ? </h1>
 The best way is to try with an example. They are two of them:
-- a single zone model with one mechanical supply and one flow path to the exterior. The applied signal is a sine function. 
-- a more complex model with more zones, more controls, which more or less reproduces the behavior of an French DCV system (hygro B), for which vents openings are dependent on the weather conditions
+<ul>
+<li> a single zone model with one mechanical supply and one flow path to the exterior. The applied signal is a sine function. </li>
+<li> a more complex model with more zones, more controls, which more or less reproduces the behavior of an French DCV system (hygro B), for which vents openings are dependent on the weather conditions </li>
+</ul>
 
 
 To run the examples, simply run:
